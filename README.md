@@ -10,6 +10,7 @@ From EEG signals, several studies have presented the fact that EEG can be sepera
 * 𝛼 [8 - 15 Hz] - relaxation eye opened and closed
 * 𝛽 [16 - 31 Hz] - physical activity, movment and excitation
 * 𝛾 [ > 32 Hz] - nervous state, high activity and excitation
+* 
 Then, if the signals energy is computed in each frequency bands. It is possible to represent an EEG into a vector of dimension = [𝑛𝑏𝑎𝑛𝑑𝑠×1] (here 𝑛𝑏𝑎𝑛𝑑𝑠=5). If we consider the total records with all the samples and channels, the feature vector has the following dimension [𝑛𝑡𝑟𝑖𝑎𝑙𝑠×𝑛𝑐ℎ𝑎𝑛𝑛𝑒𝑙𝑠×𝑛𝑏𝑎𝑛𝑑𝑠] with 𝑛𝑡𝑟𝑖𝑎𝑙𝑠𝑎𝑛𝑑𝑛𝑐ℎ𝑎𝑛𝑛𝑒𝑙𝑠 respectively representing the amount of trial and electrodes on the eeg cap.
 
-  The objective here is to recognize the brain activity which corresponds to one of the 4 activities that the participant is thinking about (muscle movements of the left   hands / muscle movements of the right hands / muscle movements of the left feet, and / right foot muscle movements).
+The objective here is to recognize the brain activity which corresponds to one of the 4 activities that the participant is thinking about (muscle movements of the left   hands / muscle movements of the right hands / muscle movements of the left feet, and / right foot muscle movements).
