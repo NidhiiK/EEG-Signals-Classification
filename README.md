@@ -1,6 +1,6 @@
 # EEG-Signals-Classification
 
-EEG signal classification is used to predict the right or left-hand movement of the user by capturing the brain impulses using an EMOTIV EPOC + 14 Channel electroencephalogram.
+EEG signal classification is used to predict the right or left-hand movement of the user by capturing the brain impulses using an EMOTIV EPOC + 14 Channel electroencephalogram. This equipment has 128 Hz sampling frequency with 16-bit analog analog converter with 14 electrode channels: AF3, F7, F3, FC5, T7, P7, O1, O2, P8, T8, FC6, F4, F8 and AF4.
 
 Electroencephalography (EEG) is an electrophysiological monitoring method to record electrical activity of the brain. It is typically noninvasive, with the electrodes placed along the scalp, although invasive electrodes are sometimes used, as in electrocorticography, sometimes called intracranial EEG. 
 From EEG signals, several studies have presented the fact that EEG can be seperated in frequential bands each of them representing a specific behaviour:
